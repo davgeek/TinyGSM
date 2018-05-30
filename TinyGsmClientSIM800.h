@@ -513,10 +513,10 @@ public:
       return false;
     }
 
-    sendAT(GF("+CDNSCFG=\"8.8.8.8\",\"8.8.4.4\""));
-    if (waitResponse() != 1) {
-      return false;
-    }
+    // sendAT(GF("+CDNSCFG=\"8.8.8.8\",\"8.8.4.4\""));
+    // if (waitResponse() != 1) {
+    //   return false;
+    // }
 
     return true;
   }
